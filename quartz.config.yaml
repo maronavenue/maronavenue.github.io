@@ -210,6 +210,9 @@ plugins:
       priority: 10
       options:
         limit: 5
+        filter:
+          excludeTags:
+            - "tag-index"
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
