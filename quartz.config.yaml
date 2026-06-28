@@ -159,6 +159,9 @@ plugins:
     layout:
       position: beforeBody
       priority: 20
+    options:
+      showReadingTime: false
+      showComma: false
   - source: github:quartz-community/tag-list
     enabled: true
     layout:
