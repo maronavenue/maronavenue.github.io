@@ -211,8 +211,9 @@ plugins:
       options:
         limit: 5
         filter:
-          excludeTags:
-            - "tag-index"
+        hideTagPages: true
+        hideFolderPages: true
+        showTags: true
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
