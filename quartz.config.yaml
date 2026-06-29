@@ -159,6 +159,7 @@ plugins:
     layout:
       position: beforeBody
       priority: 20
+      condition: not-index
     options:
       showReadingTime: false
       showComma: false
