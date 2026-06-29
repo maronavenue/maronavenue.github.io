@@ -2,7 +2,7 @@ name: Sync Content
 
 on:
   schedule:
-    - cron: '15 */4 * * *'
+    - cron: '0 2 * * *'  # sync every 10 AM PHT
   workflow_dispatch:
 
 jobs:
