@@ -199,6 +199,12 @@
       "commit": "a1c1fe0a9c6a5ce1acf6efa01d473a7d9850e2a3",
       "installedAt": "2026-06-03T13:32:36.002Z"
     },
+    "quartz-emoji-shortcodes": {
+      "source": "github:maronavenue/quartz-emoji-shortcodes",
+      "resolved": "https://github.com/maronavenue/quartz-emoji-shortcodes.git",
+      "commit": "2e9fbe8d93b5c5b1c98d5fc287b41efec1187a93",
+      "installedAt": "2026-07-08T05:52:35.896Z"
+    },
     "quartz-themes": {
       "source": {
         "name": "quartz-themes",

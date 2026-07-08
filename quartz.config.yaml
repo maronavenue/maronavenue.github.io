@@ -211,7 +211,7 @@ plugins:
       priority: 10
       options:
         limit: 5
-        filter:
+        filter: null
         hideTagPages: true
         hideFolderPages: true
         showTags: true
@@ -260,6 +260,13 @@ plugins:
       position: afterBody
       priority: 50
       display: all
+  - source: github:maronavenue/quartz-emoji-shortcodes
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: right
+      priority: 50
 layout:
   groups:
     toolbar:
